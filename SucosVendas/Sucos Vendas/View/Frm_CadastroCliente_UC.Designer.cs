@@ -53,185 +53,191 @@
             // lbl_CPF
             // 
             this.lbl_CPF.AutoSize = true;
-            this.lbl_CPF.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_CPF.Location = new System.Drawing.Point(26, 46);
+            this.lbl_CPF.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_CPF.Location = new System.Drawing.Point(24, 35);
             this.lbl_CPF.Name = "lbl_CPF";
-            this.lbl_CPF.Size = new System.Drawing.Size(38, 18);
+            this.lbl_CPF.Size = new System.Drawing.Size(52, 25);
             this.lbl_CPF.TabIndex = 0;
             this.lbl_CPF.Text = "CPF";
             // 
             // lbl_Nome
             // 
             this.lbl_Nome.AutoSize = true;
-            this.lbl_Nome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Nome.Location = new System.Drawing.Point(26, 117);
+            this.lbl_Nome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Nome.Location = new System.Drawing.Point(26, 127);
             this.lbl_Nome.Name = "lbl_Nome";
-            this.lbl_Nome.Size = new System.Drawing.Size(49, 18);
+            this.lbl_Nome.Size = new System.Drawing.Size(64, 25);
             this.lbl_Nome.TabIndex = 1;
             this.lbl_Nome.Text = "Nome";
             // 
             // lbl_Cidade
             // 
             this.lbl_Cidade.AutoSize = true;
-            this.lbl_Cidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Cidade.Location = new System.Drawing.Point(26, 197);
+            this.lbl_Cidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Cidade.Location = new System.Drawing.Point(24, 212);
             this.lbl_Cidade.Name = "lbl_Cidade";
-            this.lbl_Cidade.Size = new System.Drawing.Size(54, 18);
+            this.lbl_Cidade.Size = new System.Drawing.Size(75, 25);
             this.lbl_Cidade.TabIndex = 2;
             this.lbl_Cidade.Text = "Cidade";
             // 
             // lbl_Estado
             // 
             this.lbl_Estado.AutoSize = true;
-            this.lbl_Estado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Estado.Location = new System.Drawing.Point(26, 270);
+            this.lbl_Estado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Estado.Location = new System.Drawing.Point(26, 315);
             this.lbl_Estado.Name = "lbl_Estado";
-            this.lbl_Estado.Size = new System.Drawing.Size(55, 18);
+            this.lbl_Estado.Size = new System.Drawing.Size(73, 25);
             this.lbl_Estado.TabIndex = 3;
             this.lbl_Estado.Text = "Estado";
             // 
             // lbl_Cep
             // 
             this.lbl_Cep.AutoSize = true;
-            this.lbl_Cep.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Cep.Location = new System.Drawing.Point(25, 342);
+            this.lbl_Cep.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Cep.Location = new System.Drawing.Point(26, 411);
             this.lbl_Cep.Name = "lbl_Cep";
-            this.lbl_Cep.Size = new System.Drawing.Size(39, 18);
+            this.lbl_Cep.Size = new System.Drawing.Size(53, 25);
             this.lbl_Cep.TabIndex = 4;
             this.lbl_Cep.Text = "CEP";
             // 
             // lbl_DataNascimento
             // 
             this.lbl_DataNascimento.AutoSize = true;
-            this.lbl_DataNascimento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_DataNascimento.Location = new System.Drawing.Point(25, 415);
+            this.lbl_DataNascimento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_DataNascimento.Location = new System.Drawing.Point(26, 484);
             this.lbl_DataNascimento.Name = "lbl_DataNascimento";
-            this.lbl_DataNascimento.Size = new System.Drawing.Size(143, 18);
+            this.lbl_DataNascimento.Size = new System.Drawing.Size(188, 25);
             this.lbl_DataNascimento.TabIndex = 5;
             this.lbl_DataNascimento.Text = "Data de Nascimento";
             // 
             // lbl_Idade
             // 
             this.lbl_Idade.AutoSize = true;
-            this.lbl_Idade.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Idade.Location = new System.Drawing.Point(270, 415);
+            this.lbl_Idade.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Idade.Location = new System.Drawing.Point(254, 484);
             this.lbl_Idade.Name = "lbl_Idade";
-            this.lbl_Idade.Size = new System.Drawing.Size(43, 18);
+            this.lbl_Idade.Size = new System.Drawing.Size(61, 25);
             this.lbl_Idade.TabIndex = 6;
             this.lbl_Idade.Text = "Idade";
             // 
             // lbl_Sexo
             // 
             this.lbl_Sexo.AutoSize = true;
-            this.lbl_Sexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Sexo.Location = new System.Drawing.Point(270, 342);
+            this.lbl_Sexo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Sexo.Location = new System.Drawing.Point(254, 411);
             this.lbl_Sexo.Name = "lbl_Sexo";
-            this.lbl_Sexo.Size = new System.Drawing.Size(42, 18);
+            this.lbl_Sexo.Size = new System.Drawing.Size(58, 25);
             this.lbl_Sexo.TabIndex = 7;
             this.lbl_Sexo.Text = "Sexo";
             // 
             // lbl_LimiteDeCredito
             // 
             this.lbl_LimiteDeCredito.AutoSize = true;
-            this.lbl_LimiteDeCredito.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_LimiteDeCredito.Location = new System.Drawing.Point(380, 342);
+            this.lbl_LimiteDeCredito.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_LimiteDeCredito.Location = new System.Drawing.Point(381, 411);
             this.lbl_LimiteDeCredito.Name = "lbl_LimiteDeCredito";
-            this.lbl_LimiteDeCredito.Size = new System.Drawing.Size(119, 18);
+            this.lbl_LimiteDeCredito.Size = new System.Drawing.Size(158, 25);
             this.lbl_LimiteDeCredito.TabIndex = 8;
             this.lbl_LimiteDeCredito.Text = "Limite de Credito";
             // 
             // lbl_VolumeDeCompra
             // 
             this.lbl_VolumeDeCompra.AutoSize = true;
-            this.lbl_VolumeDeCompra.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_VolumeDeCompra.Location = new System.Drawing.Point(380, 415);
+            this.lbl_VolumeDeCompra.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_VolumeDeCompra.Location = new System.Drawing.Point(381, 484);
             this.lbl_VolumeDeCompra.Name = "lbl_VolumeDeCompra";
-            this.lbl_VolumeDeCompra.Size = new System.Drawing.Size(136, 18);
+            this.lbl_VolumeDeCompra.Size = new System.Drawing.Size(181, 25);
             this.lbl_VolumeDeCompra.TabIndex = 9;
             this.lbl_VolumeDeCompra.Text = "Volume de Compra";
             // 
             // msk_CPF
             // 
-            this.msk_CPF.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.msk_CPF.Location = new System.Drawing.Point(28, 67);
+            this.msk_CPF.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.msk_CPF.Location = new System.Drawing.Point(30, 74);
             this.msk_CPF.Mask = "000.000.000-00";
             this.msk_CPF.Name = "msk_CPF";
-            this.msk_CPF.Size = new System.Drawing.Size(166, 24);
+            this.msk_CPF.Size = new System.Drawing.Size(166, 30);
             this.msk_CPF.TabIndex = 10;
             // 
             // msk_CEP
             // 
-            this.msk_CEP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.msk_CEP.Location = new System.Drawing.Point(28, 363);
+            this.msk_CEP.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.msk_CEP.Location = new System.Drawing.Point(29, 439);
             this.msk_CEP.Mask = "00000-000";
             this.msk_CEP.Name = "msk_CEP";
-            this.msk_CEP.Size = new System.Drawing.Size(166, 24);
+            this.msk_CEP.Size = new System.Drawing.Size(166, 30);
             this.msk_CEP.TabIndex = 11;
             // 
             // maskedTextBox1
             // 
-            this.maskedTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox1.Location = new System.Drawing.Point(28, 436);
+            this.maskedTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maskedTextBox1.Location = new System.Drawing.Point(29, 512);
             this.maskedTextBox1.Mask = "00/00/0000";
             this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(166, 24);
+            this.maskedTextBox1.Size = new System.Drawing.Size(166, 30);
             this.maskedTextBox1.TabIndex = 12;
             this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(28, 138);
+            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(28, 155);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(833, 24);
+            this.textBox1.Size = new System.Drawing.Size(975, 30);
             this.textBox1.TabIndex = 13;
             // 
             // textBox2
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(28, 218);
+            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(28, 243);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(833, 24);
+            this.textBox2.Size = new System.Drawing.Size(975, 30);
             this.textBox2.TabIndex = 14;
             // 
             // textBox3
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(28, 291);
+            this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(28, 343);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(833, 24);
+            this.textBox3.Size = new System.Drawing.Size(975, 30);
             this.textBox3.TabIndex = 15;
             // 
             // textBox4
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(273, 363);
+            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(257, 439);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(74, 24);
+            this.textBox4.Size = new System.Drawing.Size(74, 30);
             this.textBox4.TabIndex = 16;
             // 
             // textBox5
             // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(273, 438);
+            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.Location = new System.Drawing.Point(257, 512);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(74, 24);
+            this.textBox5.Size = new System.Drawing.Size(74, 30);
             this.textBox5.TabIndex = 17;
             // 
             // textBox6
             // 
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(383, 438);
+            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox6.Location = new System.Drawing.Point(384, 512);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(190, 24);
+            this.textBox6.Size = new System.Drawing.Size(347, 30);
             this.textBox6.TabIndex = 18;
             // 
             // textBox7
             // 
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(383, 363);
+            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox7.Location = new System.Drawing.Point(384, 439);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(190, 24);
+            this.textBox7.Size = new System.Drawing.Size(347, 30);
             this.textBox7.TabIndex = 19;
             // 
             // Frm_CadastroCliente_UC
@@ -259,7 +265,7 @@
             this.Controls.Add(this.lbl_Nome);
             this.Controls.Add(this.lbl_CPF);
             this.Name = "Frm_CadastroCliente_UC";
-            this.Size = new System.Drawing.Size(1057, 637);
+            this.Size = new System.Drawing.Size(1120, 688);
             this.ResumeLayout(false);
             this.PerformLayout();
 

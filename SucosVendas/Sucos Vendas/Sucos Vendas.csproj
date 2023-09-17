@@ -111,6 +111,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -130,9 +131,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icons8-juices-100.ico" />
+    <Content Include="Imagens\Cadastros.png" />
     <Content Include="Imagens\icons8-credenciais-do-usuário-94.ico" />
     <Content Include="Imagens\icons8-juices-100.ico" />
     <Content Include="Imagens\key.png" />
+    <Content Include="Imagens\user.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
