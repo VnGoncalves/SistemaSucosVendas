@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sucos_Vendas.View;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace Sucos_Vendas
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frm_TelaLogin());
+            Application.Run(new Frm_Principal());
         }
     }
 }

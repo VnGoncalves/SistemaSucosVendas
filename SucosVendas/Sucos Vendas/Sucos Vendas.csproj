@@ -64,11 +64,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Conexao.cs" />
+    <Compile Include="View\Frm_CadastroCliente_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\Frm_CadastroCliente_UC.Designer.cs">
+      <DependentUpon>Frm_CadastroCliente_UC.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\Frm_CadastroLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\Frm_CadastroLogin.Designer.cs">
       <DependentUpon>Frm_CadastroLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Frm_Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Frm_Principal.Designer.cs">
+      <DependentUpon>Frm_Principal.cs</DependentUpon>
     </Compile>
     <Compile Include="View\Frm_TelaLogin.cs">
       <SubType>Form</SubType>
@@ -78,8 +91,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="View\Frm_CadastroCliente_UC.resx">
+      <DependentUpon>Frm_CadastroCliente_UC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\Frm_CadastroLogin.resx">
       <DependentUpon>Frm_CadastroLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Frm_Principal.resx">
+      <DependentUpon>Frm_Principal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Frm_TelaLogin.resx">
       <DependentUpon>Frm_TelaLogin.cs</DependentUpon>
@@ -108,7 +127,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controller\" />
-    <Folder Include="Model\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="icons8-juices-100.ico" />
