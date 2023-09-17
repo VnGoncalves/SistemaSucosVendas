@@ -58,7 +58,6 @@
             this.txt_Usuario.Name = "txt_Usuario";
             this.txt_Usuario.Size = new System.Drawing.Size(238, 24);
             this.txt_Usuario.TabIndex = 4;
-            this.txt_Usuario.TextChanged += new System.EventHandler(this.txt_Usuario_TextChanged);
             // 
             // txt_Senha
             // 
@@ -90,6 +89,7 @@
             this.btn_Cadastro.TabIndex = 1;
             this.btn_Cadastro.Text = "CADASTRAR";
             this.btn_Cadastro.UseVisualStyleBackColor = false;
+            this.btn_Cadastro.Click += new System.EventHandler(this.btn_Cadastro_Click);
             // 
             // lbl_Usuario
             // 
@@ -116,7 +116,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.ClientSize = new System.Drawing.Size(691, 296);
+            this.ClientSize = new System.Drawing.Size(692, 283);
             this.Controls.Add(this.lbl_Senha);
             this.Controls.Add(this.lbl_Usuario);
             this.Controls.Add(this.pictureBox1);
@@ -130,6 +130,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Frm_TelaLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Autenticação";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

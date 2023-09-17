@@ -64,6 +64,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="View\Frm_CadastroLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Frm_CadastroLogin.Designer.cs">
+      <DependentUpon>Frm_CadastroLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\Frm_TelaLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="View\Frm_CadastroLogin.resx">
+      <DependentUpon>Frm_CadastroLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\Frm_TelaLogin.resx">
       <DependentUpon>Frm_TelaLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -103,7 +112,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icons8-juices-100.ico" />
+    <Content Include="Imagens\icons8-credenciais-do-usuário-94.ico" />
     <Content Include="Imagens\icons8-juices-100.ico" />
+    <Content Include="Imagens\key.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

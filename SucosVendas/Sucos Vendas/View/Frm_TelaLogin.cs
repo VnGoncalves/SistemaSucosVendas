@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sucos_Vendas.View;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,12 +18,10 @@ namespace Sucos_Vendas
             InitializeComponent();
         }
 
-        private void txt_Usuario_TextChanged(object sender, EventArgs e)
+        private void btn_Cadastro_Click(object sender, EventArgs e)
         {
-            if(txt_Usuario.Text == string.Empty)
-            {
-                txt_Usuario.Text = "Usuario";
-            }
+            Frm_CadastroLogin cadastro = new Frm_CadastroLogin();
+            cadastro.ShowDialog();
         }
     }
 }
