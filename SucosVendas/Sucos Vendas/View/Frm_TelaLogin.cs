@@ -10,11 +10,19 @@ using System.Windows.Forms;
 
 namespace Sucos_Vendas
 {
-    public partial class Form1 : Form
+    public partial class Frm_TelaLogin : Form
     {
-        public Form1()
+        public Frm_TelaLogin()
         {
             InitializeComponent();
+        }
+
+        private void txt_Usuario_TextChanged(object sender, EventArgs e)
+        {
+            if(txt_Usuario.Text == string.Empty)
+            {
+                txt_Usuario.Text = "Usuario";
+            }
         }
     }
 }

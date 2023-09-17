@@ -1,0 +1,10 @@
+C:\Users\vinic\Documents\C#\Sistema Sucos Vendas\SucosVendas\Sucos Vendas\bin\Debug\Sucos Vendas.exe.config
+C:\Users\vinic\Documents\C#\Sistema Sucos Vendas\SucosVendas\Sucos Vendas\bin\Debug\Sucos Vendas.exe
+C:\Users\vinic\Documents\C#\Sistema Sucos Vendas\SucosVendas\Sucos Vendas\bin\Debug\Sucos Vendas.pdb
+C:\Users\vinic\Documents\C#\Sistema Sucos Vendas\SucosVendas\Sucos Vendas\obj\Debug\Sucos Vendas.csproj.AssemblyReference.cache
+C:\Users\vinic\Documents\C#\Sistema Sucos Vendas\SucosVendas\Sucos Vendas\obj\Debug\Sucos_Vendas.Frm_TelaLogin.resources
+C:\Users\vinic\Documents\C#\Sistema Sucos Vendas\SucosVendas\Sucos Vendas\obj\Debug\Sucos_Vendas.Properties.Resources.resources
+C:\Users\vinic\Documents\C#\Sistema Sucos Vendas\SucosVendas\Sucos Vendas\obj\Debug\Sucos Vendas.csproj.GenerateResource.cache
+C:\Users\vinic\Documents\C#\Sistema Sucos Vendas\SucosVendas\Sucos Vendas\obj\Debug\Sucos Vendas.csproj.CoreCompileInputs.cache
+C:\Users\vinic\Documents\C#\Sistema Sucos Vendas\SucosVendas\Sucos Vendas\obj\Debug\Sucos Vendas.exe
+C:\Users\vinic\Documents\C#\Sistema Sucos Vendas\SucosVendas\Sucos Vendas\obj\Debug\Sucos Vendas.pdb
