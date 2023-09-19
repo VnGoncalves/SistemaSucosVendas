@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Principal));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.opçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.usuariosDoSistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadatroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -40,7 +41,6 @@
             this.vendasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tbc_Aplicacoes = new System.Windows.Forms.TabControl();
             this.iml_Imagens = new System.Windows.Forms.ImageList(this.components);
-            this.usuariosDoSistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,16 +68,22 @@
             this.opçõesToolStripMenuItem.Size = new System.Drawing.Size(87, 29);
             this.opçõesToolStripMenuItem.Text = "Opções";
             // 
+            // usuariosDoSistemaToolStripMenuItem
+            // 
+            this.usuariosDoSistemaToolStripMenuItem.Name = "usuariosDoSistemaToolStripMenuItem";
+            this.usuariosDoSistemaToolStripMenuItem.Size = new System.Drawing.Size(260, 30);
+            this.usuariosDoSistemaToolStripMenuItem.Text = "Usuarios do Sistema";
+            // 
             // sobreToolStripMenuItem
             // 
             this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
-            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(145, 30);
+            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(260, 30);
             this.sobreToolStripMenuItem.Text = "Sobre";
             // 
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(145, 30);
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(260, 30);
             this.sairToolStripMenuItem.Text = "Sair";
             // 
             // cadatroToolStripMenuItem
@@ -94,7 +100,7 @@
             // 
             this.clienteToolStripMenuItem.Image = global::Sucos_Vendas.Properties.Resources.user;
             this.clienteToolStripMenuItem.Name = "clienteToolStripMenuItem";
-            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(163, 30);
             this.clienteToolStripMenuItem.Text = "Cliente";
             this.clienteToolStripMenuItem.Click += new System.EventHandler(this.clienteToolStripMenuItem_Click);
             // 
@@ -102,7 +108,7 @@
             // 
             this.produtoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("produtoToolStripMenuItem.Image")));
             this.produtoToolStripMenuItem.Name = "produtoToolStripMenuItem";
-            this.produtoToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.produtoToolStripMenuItem.Size = new System.Drawing.Size(163, 30);
             this.produtoToolStripMenuItem.Text = "Produto";
             // 
             // vendasToolStripMenuItem
@@ -134,19 +140,13 @@
             this.iml_Imagens.Images.SetKeyName(4, "key.png");
             this.iml_Imagens.Images.SetKeyName(5, "user.png");
             // 
-            // usuariosDoSistemaToolStripMenuItem
-            // 
-            this.usuariosDoSistemaToolStripMenuItem.Name = "usuariosDoSistemaToolStripMenuItem";
-            this.usuariosDoSistemaToolStripMenuItem.Size = new System.Drawing.Size(260, 30);
-            this.usuariosDoSistemaToolStripMenuItem.Text = "Usuarios do Sistema";
-            // 
             // Frm_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1474, 771);
-            this.Controls.Add(this.tbc_Aplicacoes);
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.tbc_Aplicacoes);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Frm_Principal";

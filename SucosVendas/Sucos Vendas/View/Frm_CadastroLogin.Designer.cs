@@ -101,47 +101,47 @@
             // 
             this.txt_Nome.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txt_Nome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Nome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_Nome.Location = new System.Drawing.Point(36, 245);
             this.txt_Nome.Name = "txt_Nome";
-            this.txt_Nome.Size = new System.Drawing.Size(451, 24);
+            this.txt_Nome.Size = new System.Drawing.Size(451, 27);
             this.txt_Nome.TabIndex = 5;
             // 
             // txt_Login
             // 
             this.txt_Login.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txt_Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_Login.Location = new System.Drawing.Point(36, 327);
             this.txt_Login.Name = "txt_Login";
-            this.txt_Login.Size = new System.Drawing.Size(451, 24);
+            this.txt_Login.Size = new System.Drawing.Size(451, 27);
             this.txt_Login.TabIndex = 6;
             // 
             // txt_Senha
             // 
             this.txt_Senha.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txt_Senha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Senha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_Senha.Location = new System.Drawing.Point(39, 407);
             this.txt_Senha.Name = "txt_Senha";
             this.txt_Senha.PasswordChar = '*';
-            this.txt_Senha.Size = new System.Drawing.Size(448, 24);
+            this.txt_Senha.Size = new System.Drawing.Size(448, 27);
             this.txt_Senha.TabIndex = 7;
             // 
             // txt_ConfirmaSenha
             // 
             this.txt_ConfirmaSenha.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txt_ConfirmaSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_ConfirmaSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_ConfirmaSenha.Location = new System.Drawing.Point(39, 490);
             this.txt_ConfirmaSenha.Name = "txt_ConfirmaSenha";
             this.txt_ConfirmaSenha.PasswordChar = '*';
-            this.txt_ConfirmaSenha.Size = new System.Drawing.Size(448, 24);
+            this.txt_ConfirmaSenha.Size = new System.Drawing.Size(448, 27);
             this.txt_ConfirmaSenha.TabIndex = 8;
             // 
             // btn_Cadastrar
             // 
-            this.btn_Cadastrar.Location = new System.Drawing.Point(117, 560);
+            this.btn_Cadastrar.Location = new System.Drawing.Point(129, 584);
             this.btn_Cadastrar.Name = "btn_Cadastrar";
             this.btn_Cadastrar.Size = new System.Drawing.Size(141, 41);
             this.btn_Cadastrar.TabIndex = 9;
@@ -151,7 +151,7 @@
             // 
             // btn_Voltar
             // 
-            this.btn_Voltar.Location = new System.Drawing.Point(277, 560);
+            this.btn_Voltar.Location = new System.Drawing.Point(289, 584);
             this.btn_Voltar.Name = "btn_Voltar";
             this.btn_Voltar.Size = new System.Drawing.Size(141, 41);
             this.btn_Voltar.TabIndex = 10;

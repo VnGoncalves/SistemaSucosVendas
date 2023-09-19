@@ -113,6 +113,17 @@ namespace Sucos_Vendas.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pngtree_user_login_or_authenticate_icon_on_gray_background_flat_icon_ve_png_image_1742031 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree_user_login_or_authenticate_icon_on_gray_background_flat_icon_ve_png_image" +
+                        "_1742031", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap user {
             get {
                 object obj = ResourceManager.GetObject("user", resourceCulture);

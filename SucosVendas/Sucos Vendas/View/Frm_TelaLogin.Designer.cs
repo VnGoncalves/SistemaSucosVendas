@@ -44,29 +44,29 @@
             this.btn_Login.BackColor = System.Drawing.SystemColors.HighlightText;
             this.btn_Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Login.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btn_Login.Location = new System.Drawing.Point(350, 174);
+            this.btn_Login.Location = new System.Drawing.Point(378, 174);
             this.btn_Login.Name = "btn_Login";
-            this.btn_Login.Size = new System.Drawing.Size(135, 39);
+            this.btn_Login.Size = new System.Drawing.Size(109, 39);
             this.btn_Login.TabIndex = 0;
-            this.btn_Login.Text = "LOGIN";
+            this.btn_Login.Text = "Login";
             this.btn_Login.UseVisualStyleBackColor = false;
             this.btn_Login.Click += new System.EventHandler(this.btn_Login_Click);
             // 
             // txt_Usuario
             // 
-            this.txt_Usuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Usuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_Usuario.Location = new System.Drawing.Point(398, 66);
             this.txt_Usuario.Name = "txt_Usuario";
-            this.txt_Usuario.Size = new System.Drawing.Size(238, 24);
+            this.txt_Usuario.Size = new System.Drawing.Size(238, 27);
             this.txt_Usuario.TabIndex = 4;
             // 
             // txt_Senha
             // 
-            this.txt_Senha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Senha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_Senha.Location = new System.Drawing.Point(398, 115);
             this.txt_Senha.Name = "txt_Senha";
             this.txt_Senha.PasswordChar = '*';
-            this.txt_Senha.Size = new System.Drawing.Size(238, 24);
+            this.txt_Senha.Size = new System.Drawing.Size(238, 27);
             this.txt_Senha.TabIndex = 5;
             // 
             // pictureBox1
@@ -74,7 +74,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(1, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(265, 236);
+            this.pictureBox1.Size = new System.Drawing.Size(301, 290);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
@@ -84,31 +84,31 @@
             this.btn_Cadastro.BackColor = System.Drawing.SystemColors.HighlightText;
             this.btn_Cadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Cadastro.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btn_Cadastro.Location = new System.Drawing.Point(504, 174);
+            this.btn_Cadastro.Location = new System.Drawing.Point(493, 174);
             this.btn_Cadastro.Name = "btn_Cadastro";
-            this.btn_Cadastro.Size = new System.Drawing.Size(132, 39);
+            this.btn_Cadastro.Size = new System.Drawing.Size(103, 39);
             this.btn_Cadastro.TabIndex = 1;
-            this.btn_Cadastro.Text = "CADASTRAR";
+            this.btn_Cadastro.Text = "Cadastrar";
             this.btn_Cadastro.UseVisualStyleBackColor = false;
             this.btn_Cadastro.Click += new System.EventHandler(this.btn_Cadastro_Click);
             // 
             // lbl_Usuario
             // 
             this.lbl_Usuario.AutoSize = true;
-            this.lbl_Usuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Usuario.Location = new System.Drawing.Point(308, 73);
+            this.lbl_Usuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Usuario.Location = new System.Drawing.Point(308, 69);
             this.lbl_Usuario.Name = "lbl_Usuario";
-            this.lbl_Usuario.Size = new System.Drawing.Size(60, 18);
+            this.lbl_Usuario.Size = new System.Drawing.Size(67, 20);
             this.lbl_Usuario.TabIndex = 7;
             this.lbl_Usuario.Text = "Usuario";
             // 
             // lbl_Senha
             // 
             this.lbl_Senha.AutoSize = true;
-            this.lbl_Senha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Senha.Location = new System.Drawing.Point(311, 122);
+            this.lbl_Senha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Senha.Location = new System.Drawing.Point(319, 118);
             this.lbl_Senha.Name = "lbl_Senha";
-            this.lbl_Senha.Size = new System.Drawing.Size(50, 18);
+            this.lbl_Senha.Size = new System.Drawing.Size(56, 20);
             this.lbl_Senha.TabIndex = 8;
             this.lbl_Senha.Text = "Senha";
             // 
@@ -116,6 +116,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(692, 283);
             this.Controls.Add(this.lbl_Senha);

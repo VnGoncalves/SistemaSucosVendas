@@ -15,6 +15,7 @@ namespace Sucos_Vendas.View
         public Frm_Principal()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
 
         int ControleCadastoCliente = 0;

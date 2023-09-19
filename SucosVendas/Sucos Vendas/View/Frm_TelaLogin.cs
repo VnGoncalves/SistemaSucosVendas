@@ -14,9 +14,11 @@ namespace Sucos_Vendas
 {
     public partial class Frm_TelaLogin : Form
     {
+        
         public Frm_TelaLogin()
         {
             InitializeComponent();
+           
         }
 
         private void btn_Cadastro_Click(object sender, EventArgs e)
@@ -30,16 +32,24 @@ namespace Sucos_Vendas
             Login login = new Login();
             login.login(txt_Usuario.Text, txt_Senha.Text);
 
-            if(login.tem)
+            if (txt_Usuario.Text == string.Empty || txt_Senha.Text == string.Empty)
             {
-                MessageBox.Show("Login efetuado com sucesso", "Mensagem", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                Frm_Principal principal = new Frm_Principal();
-                principal.ShowDialog();
-                this.Close();
+                MessageBox.Show("Preencha todos os campos", "ATENÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
-                MessageBox.Show("Login não encontrado", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                if (login.tem)
+                {
+                    MessageBox.Show("Login efetuado com sucesso", "Mensagem", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    Frm_Principal principal = new Frm_Principal();
+                    principal.Show();
+                    this.Hide();
+
+                }
+                else
+                {
+                    MessageBox.Show("Login não encontrado", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
     }
