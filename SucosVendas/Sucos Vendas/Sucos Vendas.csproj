@@ -64,6 +64,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\Metodos Tela Login\Login.cs" />
+    <Compile Include="Controller\Metodos Tela Login\TelaLoginCadastro.cs" />
     <Compile Include="Model\Conexao.cs" />
     <Compile Include="View\Frm_CadastroCliente_UC.cs">
       <SubType>UserControl</SubType>
@@ -126,16 +128,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controller\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="icons8-juices-100.ico" />
     <Content Include="Imagens\Cadastros.png" />
+    <Content Include="Imagens\fecharsenha.png" />
     <Content Include="Imagens\icons8-credenciais-do-usuário-94.ico" />
     <Content Include="Imagens\icons8-juices-100.ico" />
     <Content Include="Imagens\key.png" />
     <Content Include="Imagens\user.png" />
+    <Content Include="Imagens\versenha.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

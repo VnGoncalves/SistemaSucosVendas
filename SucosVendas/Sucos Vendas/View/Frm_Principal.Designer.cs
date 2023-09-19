@@ -36,11 +36,11 @@
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadatroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.usuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.produtoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.vendasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tbc_Aplicacoes = new System.Windows.Forms.TabControl();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.iml_Imagens = new System.Windows.Forms.ImageList(this.components);
+            this.usuariosDoSistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,13 +54,14 @@
             this.vendasToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1386, 33);
+            this.menuStrip1.Size = new System.Drawing.Size(1474, 33);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // opçõesToolStripMenuItem
             // 
             this.opçõesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.usuariosDoSistemaToolStripMenuItem,
             this.sobreToolStripMenuItem,
             this.sairToolStripMenuItem});
             this.opçõesToolStripMenuItem.Name = "opçõesToolStripMenuItem";
@@ -83,7 +84,6 @@
             // 
             this.cadatroToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.clienteToolStripMenuItem,
-            this.usuarioToolStripMenuItem,
             this.produtoToolStripMenuItem});
             this.cadatroToolStripMenuItem.Image = global::Sucos_Vendas.Properties.Resources.Cadastros;
             this.cadatroToolStripMenuItem.Name = "cadatroToolStripMenuItem";
@@ -98,14 +98,9 @@
             this.clienteToolStripMenuItem.Text = "Cliente";
             this.clienteToolStripMenuItem.Click += new System.EventHandler(this.clienteToolStripMenuItem_Click);
             // 
-            // usuarioToolStripMenuItem
-            // 
-            this.usuarioToolStripMenuItem.Name = "usuarioToolStripMenuItem";
-            this.usuarioToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
-            this.usuarioToolStripMenuItem.Text = "Usuario";
-            // 
             // produtoToolStripMenuItem
             // 
+            this.produtoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("produtoToolStripMenuItem.Image")));
             this.produtoToolStripMenuItem.Name = "produtoToolStripMenuItem";
             this.produtoToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
             this.produtoToolStripMenuItem.Text = "Produto";
@@ -121,28 +116,35 @@
             this.tbc_Aplicacoes.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbc_Aplicacoes.ImageList = this.iml_Imagens;
             this.tbc_Aplicacoes.Location = new System.Drawing.Point(-7, 36);
             this.tbc_Aplicacoes.Name = "tbc_Aplicacoes";
             this.tbc_Aplicacoes.SelectedIndex = 0;
-            this.tbc_Aplicacoes.Size = new System.Drawing.Size(1393, 672);
+            this.tbc_Aplicacoes.Size = new System.Drawing.Size(1481, 738);
             this.tbc_Aplicacoes.TabIndex = 1;
             // 
-            // imageList1
+            // iml_Imagens
             // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "Cadastros.png");
-            this.imageList1.Images.SetKeyName(1, "icons8-cadastro-96.png");
-            this.imageList1.Images.SetKeyName(2, "icons8-credenciais-do-usuário-94.ico");
-            this.imageList1.Images.SetKeyName(3, "icons8-juices-100.ico");
-            this.imageList1.Images.SetKeyName(4, "key.png");
-            this.imageList1.Images.SetKeyName(5, "user.png");
+            this.iml_Imagens.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("iml_Imagens.ImageStream")));
+            this.iml_Imagens.TransparentColor = System.Drawing.Color.Transparent;
+            this.iml_Imagens.Images.SetKeyName(0, "Cadastros.png");
+            this.iml_Imagens.Images.SetKeyName(1, "icons8-cadastro-96.png");
+            this.iml_Imagens.Images.SetKeyName(2, "icons8-credenciais-do-usuário-94.ico");
+            this.iml_Imagens.Images.SetKeyName(3, "icons8-juices-100.ico");
+            this.iml_Imagens.Images.SetKeyName(4, "key.png");
+            this.iml_Imagens.Images.SetKeyName(5, "user.png");
+            // 
+            // usuariosDoSistemaToolStripMenuItem
+            // 
+            this.usuariosDoSistemaToolStripMenuItem.Name = "usuariosDoSistemaToolStripMenuItem";
+            this.usuariosDoSistemaToolStripMenuItem.Size = new System.Drawing.Size(260, 30);
+            this.usuariosDoSistemaToolStripMenuItem.Text = "Usuarios do Sistema";
             // 
             // Frm_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1386, 711);
+            this.ClientSize = new System.Drawing.Size(1474, 771);
             this.Controls.Add(this.tbc_Aplicacoes);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -165,10 +167,10 @@
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cadatroToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem clienteToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem usuarioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem produtoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem vendasToolStripMenuItem;
         private System.Windows.Forms.TabControl tbc_Aplicacoes;
-        private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.ImageList iml_Imagens;
+        private System.Windows.Forms.ToolStripMenuItem usuariosDoSistemaToolStripMenuItem;
     }
 }

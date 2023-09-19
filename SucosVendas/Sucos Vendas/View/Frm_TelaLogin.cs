@@ -1,4 +1,5 @@
-﻿using Sucos_Vendas.View;
+﻿using Sucos_Vendas.Controller;
+using Sucos_Vendas.View;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -22,6 +23,24 @@ namespace Sucos_Vendas
         {
             Frm_CadastroLogin cadastro = new Frm_CadastroLogin();
             cadastro.ShowDialog();
+        }
+
+        private void btn_Login_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.login(txt_Usuario.Text, txt_Senha.Text);
+
+            if(login.tem)
+            {
+                MessageBox.Show("Login efetuado com sucesso", "Mensagem", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Frm_Principal principal = new Frm_Principal();
+                principal.ShowDialog();
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Login não encontrado", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

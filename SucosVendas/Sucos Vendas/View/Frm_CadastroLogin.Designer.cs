@@ -28,19 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_CadastroLogin));
             this.lbl_MensagemCadastro = new System.Windows.Forms.Label();
             this.lbl_Nome = new System.Windows.Forms.Label();
             this.lbl_Login = new System.Windows.Forms.Label();
             this.lbl_Senha = new System.Windows.Forms.Label();
             this.lbl_ConfirmaSenha = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txt_Nome = new System.Windows.Forms.TextBox();
+            this.txt_Login = new System.Windows.Forms.TextBox();
+            this.txt_Senha = new System.Windows.Forms.TextBox();
+            this.txt_ConfirmaSenha = new System.Windows.Forms.TextBox();
             this.btn_Cadastrar = new System.Windows.Forms.Button();
             this.btn_Voltar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -93,45 +97,47 @@
             this.lbl_ConfirmaSenha.TabIndex = 4;
             this.lbl_ConfirmaSenha.Text = "Confirma Senha*";
             // 
-            // textBox1
+            // txt_Nome
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txt_Nome.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(36, 245);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(451, 24);
-            this.textBox1.TabIndex = 5;
+            this.txt_Nome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Nome.Location = new System.Drawing.Point(36, 245);
+            this.txt_Nome.Name = "txt_Nome";
+            this.txt_Nome.Size = new System.Drawing.Size(451, 24);
+            this.txt_Nome.TabIndex = 5;
             // 
-            // textBox2
+            // txt_Login
             // 
-            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txt_Login.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(36, 327);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(451, 24);
-            this.textBox2.TabIndex = 6;
+            this.txt_Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Login.Location = new System.Drawing.Point(36, 327);
+            this.txt_Login.Name = "txt_Login";
+            this.txt_Login.Size = new System.Drawing.Size(451, 24);
+            this.txt_Login.TabIndex = 6;
             // 
-            // textBox3
+            // txt_Senha
             // 
-            this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txt_Senha.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(39, 407);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(448, 24);
-            this.textBox3.TabIndex = 7;
+            this.txt_Senha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Senha.Location = new System.Drawing.Point(39, 407);
+            this.txt_Senha.Name = "txt_Senha";
+            this.txt_Senha.PasswordChar = '*';
+            this.txt_Senha.Size = new System.Drawing.Size(448, 24);
+            this.txt_Senha.TabIndex = 7;
             // 
-            // textBox4
+            // txt_ConfirmaSenha
             // 
-            this.textBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txt_ConfirmaSenha.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(39, 490);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(448, 24);
-            this.textBox4.TabIndex = 8;
+            this.txt_ConfirmaSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_ConfirmaSenha.Location = new System.Drawing.Point(39, 490);
+            this.txt_ConfirmaSenha.Name = "txt_ConfirmaSenha";
+            this.txt_ConfirmaSenha.PasswordChar = '*';
+            this.txt_ConfirmaSenha.Size = new System.Drawing.Size(448, 24);
+            this.txt_ConfirmaSenha.TabIndex = 8;
             // 
             // btn_Cadastrar
             // 
@@ -141,6 +147,7 @@
             this.btn_Cadastrar.TabIndex = 9;
             this.btn_Cadastrar.Text = "CADASTRAR";
             this.btn_Cadastrar.UseVisualStyleBackColor = true;
+            this.btn_Cadastrar.Click += new System.EventHandler(this.btn_Cadastrar_Click);
             // 
             // btn_Voltar
             // 
@@ -162,18 +169,57 @@
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
             // 
+            // button1
+            // 
+            this.button1.ImageIndex = 7;
+            this.button1.ImageList = this.imageList1;
+            this.button1.Location = new System.Drawing.Point(435, 442);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(52, 31);
+            this.button1.TabIndex = 14;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "Cadastros.png");
+            this.imageList1.Images.SetKeyName(1, "fecharsenha.ico");
+            this.imageList1.Images.SetKeyName(2, "icons8-cadastro-96.png");
+            this.imageList1.Images.SetKeyName(3, "icons8-credenciais-do-usuário-94.ico");
+            this.imageList1.Images.SetKeyName(4, "icons8-juices-100.ico");
+            this.imageList1.Images.SetKeyName(5, "key.png");
+            this.imageList1.Images.SetKeyName(6, "user.png");
+            this.imageList1.Images.SetKeyName(7, "versenha.ico");
+            this.imageList1.Images.SetKeyName(8, "fecharsenha.png");
+            // 
+            // button2
+            // 
+            this.button2.ImageIndex = 7;
+            this.button2.ImageList = this.imageList1;
+            this.button2.Location = new System.Drawing.Point(435, 520);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(52, 35);
+            this.button2.TabIndex = 15;
+            this.button2.Text = ";";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Frm_CadastroLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(552, 672);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btn_Voltar);
             this.Controls.Add(this.btn_Cadastrar);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txt_ConfirmaSenha);
+            this.Controls.Add(this.txt_Senha);
+            this.Controls.Add(this.txt_Login);
+            this.Controls.Add(this.txt_Nome);
             this.Controls.Add(this.lbl_ConfirmaSenha);
             this.Controls.Add(this.lbl_Senha);
             this.Controls.Add(this.lbl_Login);
@@ -199,12 +245,15 @@
         private System.Windows.Forms.Label lbl_Login;
         private System.Windows.Forms.Label lbl_Senha;
         private System.Windows.Forms.Label lbl_ConfirmaSenha;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txt_Nome;
+        private System.Windows.Forms.TextBox txt_Login;
+        private System.Windows.Forms.TextBox txt_Senha;
+        private System.Windows.Forms.TextBox txt_ConfirmaSenha;
         private System.Windows.Forms.Button btn_Cadastrar;
         private System.Windows.Forms.Button btn_Voltar;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.Button button2;
     }
 }

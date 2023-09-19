@@ -71,6 +71,16 @@ namespace Sucos_Vendas.Properties {
         }
         
         /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fecharsenha {
+            get {
+                object obj = ResourceManager.GetObject("fecharsenha", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Icon semelhante a (Ícone).
         /// </summary>
         internal static System.Drawing.Icon icons8_credenciais_do_usuário_94 {
@@ -106,6 +116,16 @@ namespace Sucos_Vendas.Properties {
         internal static System.Drawing.Bitmap user {
             get {
                 object obj = ResourceManager.GetObject("user", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap versenha {
+            get {
+                object obj = ResourceManager.GetObject("versenha", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

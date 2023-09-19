@@ -9,20 +9,28 @@ namespace Sucos_Vendas.Model
 {
     public class Conexao
     {
-        public string stringconn;
-        public SqlConnection connDB;
-
+        SqlConnection con = new SqlConnection();
         public Conexao()
         {
-            try
+            con.ConnectionString = "Data Source=VINICIUS;Initial Catalog=SUCOS_VENDAS;Integrated Security=True";
+        }
+
+        public SqlConnection conectar()
+        {
+            if (con.State == System.Data.ConnectionState.Closed)
             {
-                stringconn = "Data Source=VINICIUS;Initial Catalog=SUCOS_VENDAS;Integrated Security=True";
-                connDB = new SqlConnection(stringconn);
-                connDB.Open();
+                con.Open();
             }
-            catch (Exception ex) 
+            return con;
+        }
+
+        public void desconectar()
+        {
+            if (con.State == System.Data.ConnectionState.Open)
             {
-                throw new Exception(ex.Message);
+                {
+                    con.Close();
+                }
             }
         }
     }
