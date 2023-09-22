@@ -14,11 +14,11 @@ namespace Sucos_Vendas
 {
     public partial class Frm_TelaLogin : Form
     {
-        
+        public string nome;
         public Frm_TelaLogin()
         {
             InitializeComponent();
-           
+            
         }
 
         private void btn_Cadastro_Click(object sender, EventArgs e)
@@ -29,6 +29,10 @@ namespace Sucos_Vendas
 
         private void btn_Login_Click(object sender, EventArgs e)
         {
+            
+            nome = txt_Usuario.Text;
+
+
             Login login = new Login();
             login.login(txt_Usuario.Text, txt_Senha.Text);
 

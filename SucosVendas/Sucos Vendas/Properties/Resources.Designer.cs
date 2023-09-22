@@ -63,6 +63,16 @@ namespace Sucos_Vendas.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3409297 {
+            get {
+                object obj = ResourceManager.GetObject("_3409297", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Cadastros {
             get {
                 object obj = ResourceManager.GetObject("Cadastros", resourceCulture);

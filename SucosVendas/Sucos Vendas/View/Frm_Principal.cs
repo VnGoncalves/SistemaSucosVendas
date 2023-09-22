@@ -16,27 +16,40 @@ namespace Sucos_Vendas.View
         {
             InitializeComponent();
             this.WindowState = FormWindowState.Maximized;
+            this.BackgroundImage = Properties.Resources._3409297;
+            this.BackgroundImageLayout = ImageLayout.Stretch;
         }
 
         int ControleCadastoCliente = 0;
-
-        private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
+        public void ClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Frm_Teste teste = new Frm_Teste();
+            teste.MdiParent = this;
+            teste.ControlBox = false;
+            teste.Show();
+
+
             if (ControleCadastoCliente == 0)
             {
                 ControleCadastoCliente += 1;
                 Frm_CadastroCliente_UC U = new Frm_CadastroCliente_UC();
                 TabPage TB = new TabPage();
                 U.Dock = DockStyle.Fill;
-                TB.Name = "Cadatro Cliente ";
-                TB.Text = "Cadastro Cliente ";
-                TB.ImageIndex = 5;
+                TB.Name = "Cadastro de Clientes ";
+                TB.Text = "Cadastro de Clientes ";
+                TB.ImageIndex = 0;
                 TB.Controls.Add(U);
-                tbc_Aplicacoes.TabPages.Add(TB);
-            } else
-            {
-                MessageBox.Show("Cadastro de clientes já está em aberto","ATENÇÃO",MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                teste.tbc_Aplicacoes.TabPages.Add(TB);
             }
+            else
+            {
+                MessageBox.Show("Cadastro de clientes já está em aberto", "ATENÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void Frm_Principal_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
