@@ -20,23 +20,20 @@ namespace Sucos_Vendas.View
             this.BackgroundImageLayout = ImageLayout.Stretch;
         }
 
-        int ControleCadastoCliente = 0;
+        public int ControleCadastoCliente = 0;
         public void ClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Frm_Teste teste = new Frm_Teste();
-            teste.MdiParent = this;
-            teste.ControlBox = false;
-            teste.Show();
-
-
             if (ControleCadastoCliente == 0)
             {
-                ControleCadastoCliente += 1;
+                ControleCadastoCliente++;
+                Frm_Teste teste = new Frm_Teste(this);
+                teste.MdiParent = this; 
+                teste.Show();
                 Frm_CadastroCliente_UC U = new Frm_CadastroCliente_UC();
-                TabPage TB = new TabPage();
                 U.Dock = DockStyle.Fill;
-                TB.Name = "Cadastro de Clientes ";
-                TB.Text = "Cadastro de Clientes ";
+                TabPage TB = new TabPage();
+                TB.Name = "Cadastro de Clientes";
+                TB.Text = "Cadastro de Clientes";
                 TB.ImageIndex = 0;
                 TB.Controls.Add(U);
                 teste.tbc_Aplicacoes.TabPages.Add(TB);
@@ -45,11 +42,6 @@ namespace Sucos_Vendas.View
             {
                 MessageBox.Show("Cadastro de clientes já está em aberto", "ATENÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-        }
-
-        private void Frm_Principal_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
