@@ -11,9 +11,9 @@ using Sucos_Vendas.View;
 
 namespace Sucos_Vendas.View
 {
-    public partial class Frm_Teste : Form
+    public partial class Frm_CadastroCliente : Form
     {   Frm_Principal principal;
-        public Frm_Teste(Frm_Principal principal)
+        public Frm_CadastroCliente(Frm_Principal principal)
         {
             InitializeComponent();
             this.WindowState = FormWindowState.Maximized;
@@ -28,7 +28,7 @@ namespace Sucos_Vendas.View
             if (e.Button == MouseButtons.Right)
             {
                 var ContextMenu = new ContextMenuStrip();
-                var vToolTip001 = DesenhaMenu("Apagar Aba");
+                var vToolTip001 = DesenhaMenu("Apagar Aba", "_58483");
                 ContextMenu.Items.Add(vToolTip001);
                 ContextMenu.Show(this, new Point(e.X, e.Y));
                 vToolTip001.Click += new System.EventHandler(vToolTip001_Click);
@@ -41,7 +41,6 @@ namespace Sucos_Vendas.View
                 ApagarAba(tbc_Aplicacoes.SelectedTab);
             }
         }
-
         public void ApagarAba(TabPage TB)
         {
             if (TB.Name == "Cadastro de Clientes")
@@ -50,12 +49,11 @@ namespace Sucos_Vendas.View
             }
             this.principal.ControleCadastoCliente = 0;
         }
-        ToolStripMenuItem DesenhaMenu(string text)
+        ToolStripMenuItem DesenhaMenu(string text, string imagem)
         {
             var vToolStrip = new ToolStripMenuItem();
-
-            //Image MyImage = (Image)global::CursoWindowsForms.Properties.Resources.ResourceManager.GetObject(nomeImagem);
-            //vToolStrip.Image = MyImage;
+            Image MyImage = (Image)global::Sucos_Vendas.Properties.Resources.ResourceManager.GetObject(imagem);
+            vToolStrip.Image = MyImage;
             vToolStrip.Text = text;
             return vToolStrip;
         }

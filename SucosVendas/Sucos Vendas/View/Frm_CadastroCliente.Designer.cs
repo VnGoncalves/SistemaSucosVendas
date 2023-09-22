@@ -1,6 +1,6 @@
 ﻿namespace Sucos_Vendas.View
 {
-    partial class Frm_Teste
+    partial class Frm_CadastroCliente
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Teste));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_CadastroCliente));
             this.tbc_Aplicacoes = new System.Windows.Forms.TabControl();
             this.iml_Imagens = new System.Windows.Forms.ImageList(this.components);
             this.SuspendLayout();
@@ -53,14 +53,15 @@
             this.iml_Imagens.TransparentColor = System.Drawing.Color.Transparent;
             this.iml_Imagens.Images.SetKeyName(0, "user.png");
             // 
-            // Frm_Teste
+            // Frm_CadastroCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1151, 639);
             this.Controls.Add(this.tbc_Aplicacoes);
-            this.Name = "Frm_Teste";
-            this.Text = "Frm_Teste";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Frm_CadastroCliente";
+            this.Text = "Cadastro de Clientes";
             this.ResumeLayout(false);
 
         }

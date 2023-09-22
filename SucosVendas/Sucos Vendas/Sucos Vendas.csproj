@@ -67,6 +67,11 @@
     <Compile Include="Controller\Metodos Tela Login\Login.cs" />
     <Compile Include="Controller\Metodos Tela Login\TelaLoginCadastro.cs" />
     <Compile Include="Model\Conexao.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="View\Frm_CadastroCliente_UC.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -93,11 +98,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="View\Frm_Teste.cs">
+    <Compile Include="View\Frm_CadastroCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\Frm_Teste.Designer.cs">
-      <DependentUpon>Frm_Teste.cs</DependentUpon>
+    <Compile Include="View\Frm_CadastroCliente.Designer.cs">
+      <DependentUpon>Frm_CadastroCliente.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="View\Frm_CadastroCliente_UC.resx">
       <DependentUpon>Frm_CadastroCliente_UC.cs</DependentUpon>
@@ -113,16 +118,11 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <EmbeddedResource Include="View\Frm_Teste.resx">
-      <DependentUpon>Frm_Teste.cs</DependentUpon>
+    <EmbeddedResource Include="View\Frm_CadastroCliente.resx">
+      <DependentUpon>Frm_CadastroCliente.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -141,13 +141,23 @@
   <ItemGroup>
     <Content Include="icons8-juices-100.ico" />
     <Content Include="Imagens\3409297.jpg" />
+    <Content Include="Imagens\4170630.png" />
+    <Content Include="Imagens\58483.png" />
+    <Content Include="Imagens\cadastro.png" />
     <Content Include="Imagens\Cadastros.png" />
     <Content Include="Imagens\fecharsenha.png" />
     <Content Include="Imagens\icons8-credenciais-do-usuário-94.ico" />
     <Content Include="Imagens\icons8-juices-100.ico" />
     <Content Include="Imagens\key.png" />
+    <Content Include="Imagens\opcoes.png" />
     <Content Include="Imagens\pngtree-user-login-or-authenticate-icon-on-gray-background-flat-icon-ve-png-image_1742031.jpg" />
+    <Content Include="Imagens\produto.png" />
+    <Content Include="Imagens\Sair.png" />
+    <Content Include="Imagens\Sobre.png" />
+    <Content Include="Imagens\user.ico" />
     <Content Include="Imagens\user.png" />
+    <Content Include="Imagens\usuarios.png" />
+    <Content Include="Imagens\vendas.png" />
     <Content Include="Imagens\versenha.png" />
   </ItemGroup>
   <ItemGroup>

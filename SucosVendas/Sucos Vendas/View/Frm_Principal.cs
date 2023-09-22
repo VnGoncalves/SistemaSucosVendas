@@ -26,9 +26,9 @@ namespace Sucos_Vendas.View
             if (ControleCadastoCliente == 0)
             {
                 ControleCadastoCliente++;
-                Frm_Teste teste = new Frm_Teste(this);
-                teste.MdiParent = this; 
-                teste.Show();
+                Frm_CadastroCliente cliente = new Frm_CadastroCliente(this);
+                cliente.MdiParent = this;
+                cliente.Show();
                 Frm_CadastroCliente_UC U = new Frm_CadastroCliente_UC();
                 U.Dock = DockStyle.Fill;
                 TabPage TB = new TabPage();
@@ -36,11 +36,19 @@ namespace Sucos_Vendas.View
                 TB.Text = "Cadastro de Clientes";
                 TB.ImageIndex = 0;
                 TB.Controls.Add(U);
-                teste.tbc_Aplicacoes.TabPages.Add(TB);
+                cliente.tbc_Aplicacoes.TabPages.Add(TB);
             }
             else
             {
                 MessageBox.Show("Cadastro de clientes já está em aberto", "ATENÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void sAIRToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Deseja sair do sistema ?", "ATENÇÃO", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Application.Exit();
             }
         }
     }

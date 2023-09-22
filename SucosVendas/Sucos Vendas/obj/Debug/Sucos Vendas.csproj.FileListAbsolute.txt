@@ -11,4 +11,4 @@ C:\Users\vinic\Documents\C#\Sistema Sucos Vendas\SucosVendas\Sucos Vendas\obj\De
 C:\Users\vinic\Documents\C#\Sistema Sucos Vendas\SucosVendas\Sucos Vendas\obj\Debug\Sucos_Vendas.View.Frm_CadastroLogin.resources
 C:\Users\vinic\Documents\C#\Sistema Sucos Vendas\SucosVendas\Sucos Vendas\obj\Debug\Sucos_Vendas.View.Frm_Principal.resources
 C:\Users\vinic\Documents\C#\Sistema Sucos Vendas\SucosVendas\Sucos Vendas\obj\Debug\Sucos_Vendas.View.Frm_CadastroCliente_UC.resources
-C:\Users\vinic\Documents\C#\Sistema Sucos Vendas\SucosVendas\Sucos Vendas\obj\Debug\Sucos_Vendas.View.Frm_Teste.resources
+C:\Users\vinic\Documents\C#\Sistema Sucos Vendas\SucosVendas\Sucos Vendas\obj\Debug\Sucos_Vendas.View.Frm_CadastroCliente.resources
