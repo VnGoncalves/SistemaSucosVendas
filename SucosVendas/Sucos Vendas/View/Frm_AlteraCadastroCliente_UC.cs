@@ -13,11 +13,11 @@ using System.Windows.Forms;
 
 namespace Sucos_Vendas.View
 {
-    public partial class Frm_AlteraCadastroCliente : UserControl
+    public partial class Frm_AlteraCadastroCliente_UC : UserControl
     {
 
         Frm_Principal principal;
-        public Frm_AlteraCadastroCliente(Frm_Principal principal)
+        public Frm_AlteraCadastroCliente_UC(Frm_Principal principal)
         {
             InitializeComponent();
             this.principal = principal;
@@ -27,6 +27,14 @@ namespace Sucos_Vendas.View
             string nome = txt_Nome.Text;
             ConsultaCliente cliente = new ConsultaCliente();
             cliente.CarregarDados(nome, dt_Consulta);
+        }
+
+        private void dt_Consulta_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                dt_Consulta.Rows[e.RowIndex].Selected = true;
+            }
         }
     }
 }

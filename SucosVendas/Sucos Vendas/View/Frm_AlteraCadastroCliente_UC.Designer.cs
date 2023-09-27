@@ -1,6 +1,6 @@
 ﻿namespace Sucos_Vendas.View
 {
-    partial class Frm_AlteraCadastroCliente
+    partial class Frm_AlteraCadastroCliente_UC
     {
         /// <summary> 
         /// Variável de designer necessária.
@@ -28,16 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btn_Buscar = new System.Windows.Forms.Button();
             this.txt_Nome = new System.Windows.Forms.TextBox();
             this.lbl_Cliente = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dt_Consulta = new System.Windows.Forms.DataGridView();
+            this.sUCOS_VENDASDataSet = new Sucos_Vendas.SUCOS_VENDASDataSet();
+            this.sUCOSVENDASDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dt_Consulta)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sUCOS_VENDASDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sUCOSVENDASDataSetBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -107,38 +111,45 @@
             // 
             // dt_Consulta
             // 
+            this.dt_Consulta.AllowUserToOrderColumns = true;
             this.dt_Consulta.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dt_Consulta.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dt_Consulta.Location = new System.Drawing.Point(8, 31);
-            this.dt_Consulta.Margin = new System.Windows.Forms.Padding(4);
+            this.dt_Consulta.Location = new System.Drawing.Point(0, 30);
             this.dt_Consulta.Name = "dt_Consulta";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dt_Consulta.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dt_Consulta.ReadOnly = true;
             this.dt_Consulta.RowHeadersWidth = 51;
-            this.dt_Consulta.Size = new System.Drawing.Size(1168, 615);
+            this.dt_Consulta.RowTemplate.Height = 24;
+            this.dt_Consulta.Size = new System.Drawing.Size(1184, 624);
             this.dt_Consulta.TabIndex = 0;
+            this.dt_Consulta.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dt_Consulta_CellContentClick);
             // 
-            // Frm_AlteraCadastroCliente
+            // sUCOS_VENDASDataSet
+            // 
+            this.sUCOS_VENDASDataSet.DataSetName = "SUCOS_VENDASDataSet";
+            this.sUCOS_VENDASDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // sUCOSVENDASDataSetBindingSource
+            // 
+            this.sUCOSVENDASDataSetBindingSource.DataSource = this.sUCOS_VENDASDataSet;
+            this.sUCOSVENDASDataSetBindingSource.Position = 0;
+            // 
+            // Frm_AlteraCadastroCliente_UC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Frm_AlteraCadastroCliente";
+            this.Name = "Frm_AlteraCadastroCliente_UC";
             this.Size = new System.Drawing.Size(1303, 939);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dt_Consulta)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sUCOS_VENDASDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sUCOSVENDASDataSetBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -147,9 +158,11 @@
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.DataGridView dt_Consulta;
         private System.Windows.Forms.TextBox txt_Nome;
         private System.Windows.Forms.Label lbl_Cliente;
         private System.Windows.Forms.Button btn_Buscar;
+        private System.Windows.Forms.DataGridView dt_Consulta;
+        private System.Windows.Forms.BindingSource sUCOSVENDASDataSetBindingSource;
+        private SUCOS_VENDASDataSet sUCOS_VENDASDataSet;
     }
 }

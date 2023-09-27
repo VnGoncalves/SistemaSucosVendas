@@ -35,7 +35,7 @@ namespace Sucos_Vendas.View
             cliente.tbc_Aplicacoes.TabPages.Add(TB);
 
 
-            Frm_AlteraCadastroCliente altera = new Frm_AlteraCadastroCliente(this);
+            Frm_AlteraCadastroCliente_UC altera = new Frm_AlteraCadastroCliente_UC(this);
             altera.Dock = DockStyle.Fill;
             TabPage TB2 = new TabPage();
             TB2.Name = "Alterar cadastro de Clientes";

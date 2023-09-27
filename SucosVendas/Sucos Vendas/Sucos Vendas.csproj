@@ -73,11 +73,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="View\Frm_AlteraCadastroCliente.cs">
+    <Compile Include="SUCOS_VENDASDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SUCOS_VENDASDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="View\Frm_AlteraCadastroCliente_UC.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="View\Frm_AlteraCadastroCliente.Designer.cs">
-      <DependentUpon>Frm_AlteraCadastroCliente.cs</DependentUpon>
+    <Compile Include="View\Frm_AlteraCadastroCliente_UC.Designer.cs">
+      <DependentUpon>Frm_AlteraCadastroCliente_UC.cs</DependentUpon>
     </Compile>
     <Compile Include="View\Frm_CadastroCliente_UC.cs">
       <SubType>UserControl</SubType>
@@ -111,8 +116,8 @@
     <Compile Include="View\Frm_CadastroCliente.Designer.cs">
       <DependentUpon>Frm_CadastroCliente.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="View\Frm_AlteraCadastroCliente.resx">
-      <DependentUpon>Frm_AlteraCadastroCliente.cs</DependentUpon>
+    <EmbeddedResource Include="View\Frm_AlteraCadastroCliente_UC.resx">
+      <DependentUpon>Frm_AlteraCadastroCliente_UC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Frm_CadastroCliente_UC.resx">
       <DependentUpon>Frm_CadastroCliente_UC.cs</DependentUpon>
@@ -143,6 +148,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="SUCOS_VENDASDataSet.xsc">
+      <DependentUpon>SUCOS_VENDASDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SUCOS_VENDASDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SUCOS_VENDASDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SUCOS_VENDASDataSet.xss">
+      <DependentUpon>SUCOS_VENDASDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
