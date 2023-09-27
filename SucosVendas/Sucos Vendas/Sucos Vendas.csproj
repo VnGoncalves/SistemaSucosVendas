@@ -64,6 +64,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\Metodos Cadastro Cliente\ConsultaCliente.cs" />
     <Compile Include="Controller\Metodos Tela Login\Login.cs" />
     <Compile Include="Controller\Metodos Tela Login\TelaLoginCadastro.cs" />
     <Compile Include="Model\Conexao.cs" />
@@ -71,6 +72,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="View\Frm_AlteraCadastroCliente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\Frm_AlteraCadastroCliente.Designer.cs">
+      <DependentUpon>Frm_AlteraCadastroCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="View\Frm_CadastroCliente_UC.cs">
       <SubType>UserControl</SubType>
@@ -104,6 +111,9 @@
     <Compile Include="View\Frm_CadastroCliente.Designer.cs">
       <DependentUpon>Frm_CadastroCliente.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="View\Frm_AlteraCadastroCliente.resx">
+      <DependentUpon>Frm_AlteraCadastroCliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\Frm_CadastroCliente_UC.resx">
       <DependentUpon>Frm_CadastroCliente_UC.cs</DependentUpon>
     </EmbeddedResource>

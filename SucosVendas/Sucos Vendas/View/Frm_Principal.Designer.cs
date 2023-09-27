@@ -51,7 +51,8 @@
             this.VendasToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1263, 36);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1027, 29);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -63,28 +64,28 @@
             this.sAIRToolStripMenuItem});
             this.oPÇÕESToolStripMenuItem.Image = global::Sucos_Vendas.Properties.Resources.opcoes;
             this.oPÇÕESToolStripMenuItem.Name = "oPÇÕESToolStripMenuItem";
-            this.oPÇÕESToolStripMenuItem.Size = new System.Drawing.Size(112, 32);
+            this.oPÇÕESToolStripMenuItem.Size = new System.Drawing.Size(94, 25);
             this.oPÇÕESToolStripMenuItem.Text = "Opções";
             // 
             // UsuariosDoSistemaToolStripMenuItem
             // 
             this.UsuariosDoSistemaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("UsuariosDoSistemaToolStripMenuItem.Image")));
             this.UsuariosDoSistemaToolStripMenuItem.Name = "UsuariosDoSistemaToolStripMenuItem";
-            this.UsuariosDoSistemaToolStripMenuItem.Size = new System.Drawing.Size(275, 32);
+            this.UsuariosDoSistemaToolStripMenuItem.Size = new System.Drawing.Size(226, 26);
             this.UsuariosDoSistemaToolStripMenuItem.Text = "Usuários do Sistema";
             // 
             // SobreToolStripMenuItem
             // 
             this.SobreToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("SobreToolStripMenuItem.Image")));
             this.SobreToolStripMenuItem.Name = "SobreToolStripMenuItem";
-            this.SobreToolStripMenuItem.Size = new System.Drawing.Size(275, 32);
+            this.SobreToolStripMenuItem.Size = new System.Drawing.Size(226, 26);
             this.SobreToolStripMenuItem.Text = "Sobre";
             // 
             // sAIRToolStripMenuItem
             // 
             this.sAIRToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("sAIRToolStripMenuItem.Image")));
             this.sAIRToolStripMenuItem.Name = "sAIRToolStripMenuItem";
-            this.sAIRToolStripMenuItem.Size = new System.Drawing.Size(275, 32);
+            this.sAIRToolStripMenuItem.Size = new System.Drawing.Size(226, 26);
             this.sAIRToolStripMenuItem.Text = "Sair";
             this.sAIRToolStripMenuItem.Click += new System.EventHandler(this.sAIRToolStripMenuItem_Click);
             // 
@@ -95,14 +96,14 @@
             this.pRODUTOToolStripMenuItem});
             this.cADASTROSToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("cADASTROSToolStripMenuItem.Image")));
             this.cADASTROSToolStripMenuItem.Name = "cADASTROSToolStripMenuItem";
-            this.cADASTROSToolStripMenuItem.Size = new System.Drawing.Size(132, 32);
+            this.cADASTROSToolStripMenuItem.Size = new System.Drawing.Size(111, 25);
             this.cADASTROSToolStripMenuItem.Text = "Cadastros";
             // 
             // ClienteToolStripMenuItem
             // 
             this.ClienteToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("ClienteToolStripMenuItem.Image")));
             this.ClienteToolStripMenuItem.Name = "ClienteToolStripMenuItem";
-            this.ClienteToolStripMenuItem.Size = new System.Drawing.Size(170, 32);
+            this.ClienteToolStripMenuItem.Size = new System.Drawing.Size(140, 26);
             this.ClienteToolStripMenuItem.Text = "Cliente";
             this.ClienteToolStripMenuItem.Click += new System.EventHandler(this.ClienteToolStripMenuItem_Click);
             // 
@@ -110,26 +111,27 @@
             // 
             this.pRODUTOToolStripMenuItem.Image = global::Sucos_Vendas.Properties.Resources.produto;
             this.pRODUTOToolStripMenuItem.Name = "pRODUTOToolStripMenuItem";
-            this.pRODUTOToolStripMenuItem.Size = new System.Drawing.Size(170, 32);
+            this.pRODUTOToolStripMenuItem.Size = new System.Drawing.Size(140, 26);
             this.pRODUTOToolStripMenuItem.Text = "Produto";
             // 
             // VendasToolStripMenuItem
             // 
             this.VendasToolStripMenuItem.Image = global::Sucos_Vendas.Properties.Resources.vendas;
             this.VendasToolStripMenuItem.Name = "VendasToolStripMenuItem";
-            this.VendasToolStripMenuItem.Size = new System.Drawing.Size(108, 32);
+            this.VendasToolStripMenuItem.Size = new System.Drawing.Size(92, 25);
             this.VendasToolStripMenuItem.Text = "Vendas";
             // 
             // Frm_Principal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1263, 723);
+            this.ClientSize = new System.Drawing.Size(1027, 625);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.ImeMode = System.Windows.Forms.ImeMode.Katakana;
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Frm_Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sucos Vendas";

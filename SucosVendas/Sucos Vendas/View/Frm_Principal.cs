@@ -20,28 +20,29 @@ namespace Sucos_Vendas.View
             this.BackgroundImageLayout = ImageLayout.Stretch;
         }
 
-        public int ControleCadastoCliente = 0;
         public void ClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (ControleCadastoCliente == 0)
-            {
-                ControleCadastoCliente++;
-                Frm_CadastroCliente cliente = new Frm_CadastroCliente(this);
-                cliente.MdiParent = this;
-                cliente.Show();
-                Frm_CadastroCliente_UC U = new Frm_CadastroCliente_UC();
-                U.Dock = DockStyle.Fill;
-                TabPage TB = new TabPage();
-                TB.Name = "Cadastro de Clientes";
-                TB.Text = "Cadastro de Clientes";
-                TB.ImageIndex = 0;
-                TB.Controls.Add(U);
-                cliente.tbc_Aplicacoes.TabPages.Add(TB);
-            }
-            else
-            {
-                MessageBox.Show("Cadastro de clientes já está em aberto", "ATENÇÃO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
+            Frm_CadastroCliente cliente = new Frm_CadastroCliente(this);
+            cliente.MdiParent = this;
+            cliente.Show();
+            Frm_CadastroCliente_UC U = new Frm_CadastroCliente_UC();
+            U.Dock = DockStyle.Fill;
+            TabPage TB = new TabPage();
+            TB.Name = "Cadastro de Clientes";
+            TB.Text = "Cadastro de Clientes";
+            TB.ImageIndex = 0;
+            TB.Controls.Add(U);
+            cliente.tbc_Aplicacoes.TabPages.Add(TB);
+
+
+            Frm_AlteraCadastroCliente altera = new Frm_AlteraCadastroCliente(this);
+            altera.Dock = DockStyle.Fill;
+            TabPage TB2 = new TabPage();
+            TB2.Name = "Alterar cadastro de Clientes";
+            TB2.Text = "Alterar cadastro de Clientes";
+            TB2.ImageIndex = 1;
+            TB2.Controls.Add(altera);
+            cliente.tbc_Aplicacoes.TabPages.Add(TB2);
         }
 
         private void sAIRToolStripMenuItem_Click(object sender, EventArgs e)

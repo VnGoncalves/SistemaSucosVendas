@@ -12,7 +12,8 @@ using Sucos_Vendas.View;
 namespace Sucos_Vendas.View
 {
     public partial class Frm_CadastroCliente : Form
-    {   Frm_Principal principal;
+    {   
+        Frm_Principal principal;
         public Frm_CadastroCliente(Frm_Principal principal)
         {
             InitializeComponent();
@@ -22,32 +23,6 @@ namespace Sucos_Vendas.View
         public string tbc_Aplicicacoes
         {
             get { return tbc_Aplicacoes.ToString(); }
-        }
-        public void tbc_Aplicacoes_MouseDown_1(object sender, MouseEventArgs e)
-        {
-            if (e.Button == MouseButtons.Right)
-            {
-                var ContextMenu = new ContextMenuStrip();
-                var vToolTip001 = DesenhaMenu("Apagar Aba", "_58483");
-                ContextMenu.Items.Add(vToolTip001);
-                ContextMenu.Show(this, new Point(e.X, e.Y));
-                vToolTip001.Click += new System.EventHandler(vToolTip001_Click);
-            }
-        }
-        public void vToolTip001_Click(Object sender1, EventArgs e1)
-        {
-            if (!(tbc_Aplicacoes.SelectedTab == null))
-            {
-                ApagarAba(tbc_Aplicacoes.SelectedTab);
-            }
-        }
-        public void ApagarAba(TabPage TB)
-        {
-            if (TB.Name == "Cadastro de Clientes")
-            {
-                tbc_Aplicacoes.TabPages.Remove(TB);
-            }
-            this.principal.ControleCadastoCliente = 0;
         }
         ToolStripMenuItem DesenhaMenu(string text, string imagem)
         {

@@ -48,7 +48,6 @@ namespace Sucos_Vendas
                     Frm_Principal principal = new Frm_Principal();
                     principal.Show();
                     this.Hide();
-
                 }
                 else
                 {

@@ -51,9 +51,10 @@
             // lbl_MensagemCadastro
             // 
             this.lbl_MensagemCadastro.AutoSize = true;
-            this.lbl_MensagemCadastro.Location = new System.Drawing.Point(36, 29);
+            this.lbl_MensagemCadastro.Location = new System.Drawing.Point(50, 44);
+            this.lbl_MensagemCadastro.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_MensagemCadastro.Name = "lbl_MensagemCadastro";
-            this.lbl_MensagemCadastro.Size = new System.Drawing.Size(372, 16);
+            this.lbl_MensagemCadastro.Size = new System.Drawing.Size(538, 25);
             this.lbl_MensagemCadastro.TabIndex = 0;
             this.lbl_MensagemCadastro.Text = "* Preencha todos os campos abaixo para realizar o cadastro.";
             // 
@@ -61,7 +62,8 @@
             // 
             this.lbl_Nome.AutoSize = true;
             this.lbl_Nome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Nome.Location = new System.Drawing.Point(36, 214);
+            this.lbl_Nome.Location = new System.Drawing.Point(50, 321);
+            this.lbl_Nome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Nome.Name = "lbl_Nome";
             this.lbl_Nome.Size = new System.Drawing.Size(55, 18);
             this.lbl_Nome.TabIndex = 1;
@@ -71,7 +73,8 @@
             // 
             this.lbl_Login.AutoSize = true;
             this.lbl_Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Login.Location = new System.Drawing.Point(36, 293);
+            this.lbl_Login.Location = new System.Drawing.Point(50, 440);
+            this.lbl_Login.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Login.Name = "lbl_Login";
             this.lbl_Login.Size = new System.Drawing.Size(50, 18);
             this.lbl_Login.TabIndex = 2;
@@ -81,7 +84,8 @@
             // 
             this.lbl_Senha.AutoSize = true;
             this.lbl_Senha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Senha.Location = new System.Drawing.Point(36, 376);
+            this.lbl_Senha.Location = new System.Drawing.Point(50, 564);
+            this.lbl_Senha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Senha.Name = "lbl_Senha";
             this.lbl_Senha.Size = new System.Drawing.Size(56, 18);
             this.lbl_Senha.TabIndex = 3;
@@ -91,7 +95,8 @@
             // 
             this.lbl_ConfirmaSenha.AutoSize = true;
             this.lbl_ConfirmaSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_ConfirmaSenha.Location = new System.Drawing.Point(36, 455);
+            this.lbl_ConfirmaSenha.Location = new System.Drawing.Point(50, 682);
+            this.lbl_ConfirmaSenha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_ConfirmaSenha.Name = "lbl_ConfirmaSenha";
             this.lbl_ConfirmaSenha.Size = new System.Drawing.Size(121, 18);
             this.lbl_ConfirmaSenha.TabIndex = 4;
@@ -102,9 +107,10 @@
             this.txt_Nome.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_Nome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Nome.Location = new System.Drawing.Point(36, 245);
+            this.txt_Nome.Location = new System.Drawing.Point(50, 368);
+            this.txt_Nome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_Nome.Name = "txt_Nome";
-            this.txt_Nome.Size = new System.Drawing.Size(451, 27);
+            this.txt_Nome.Size = new System.Drawing.Size(636, 27);
             this.txt_Nome.TabIndex = 5;
             // 
             // txt_Login
@@ -112,9 +118,10 @@
             this.txt_Login.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Login.Location = new System.Drawing.Point(36, 327);
+            this.txt_Login.Location = new System.Drawing.Point(50, 490);
+            this.txt_Login.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_Login.Name = "txt_Login";
-            this.txt_Login.Size = new System.Drawing.Size(451, 27);
+            this.txt_Login.Size = new System.Drawing.Size(636, 27);
             this.txt_Login.TabIndex = 6;
             // 
             // txt_Senha
@@ -122,10 +129,11 @@
             this.txt_Senha.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_Senha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Senha.Location = new System.Drawing.Point(39, 407);
+            this.txt_Senha.Location = new System.Drawing.Point(54, 610);
+            this.txt_Senha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_Senha.Name = "txt_Senha";
             this.txt_Senha.PasswordChar = '*';
-            this.txt_Senha.Size = new System.Drawing.Size(448, 27);
+            this.txt_Senha.Size = new System.Drawing.Size(631, 27);
             this.txt_Senha.TabIndex = 7;
             // 
             // txt_ConfirmaSenha
@@ -133,17 +141,19 @@
             this.txt_ConfirmaSenha.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_ConfirmaSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_ConfirmaSenha.Location = new System.Drawing.Point(39, 490);
+            this.txt_ConfirmaSenha.Location = new System.Drawing.Point(54, 735);
+            this.txt_ConfirmaSenha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_ConfirmaSenha.Name = "txt_ConfirmaSenha";
             this.txt_ConfirmaSenha.PasswordChar = '*';
-            this.txt_ConfirmaSenha.Size = new System.Drawing.Size(448, 27);
+            this.txt_ConfirmaSenha.Size = new System.Drawing.Size(631, 27);
             this.txt_ConfirmaSenha.TabIndex = 8;
             // 
             // btn_Cadastrar
             // 
-            this.btn_Cadastrar.Location = new System.Drawing.Point(129, 584);
+            this.btn_Cadastrar.Location = new System.Drawing.Point(177, 876);
+            this.btn_Cadastrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_Cadastrar.Name = "btn_Cadastrar";
-            this.btn_Cadastrar.Size = new System.Drawing.Size(141, 41);
+            this.btn_Cadastrar.Size = new System.Drawing.Size(194, 62);
             this.btn_Cadastrar.TabIndex = 9;
             this.btn_Cadastrar.Text = "CADASTRAR";
             this.btn_Cadastrar.UseVisualStyleBackColor = true;
@@ -151,9 +161,10 @@
             // 
             // btn_Voltar
             // 
-            this.btn_Voltar.Location = new System.Drawing.Point(289, 584);
+            this.btn_Voltar.Location = new System.Drawing.Point(397, 876);
+            this.btn_Voltar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_Voltar.Name = "btn_Voltar";
-            this.btn_Voltar.Size = new System.Drawing.Size(141, 41);
+            this.btn_Voltar.Size = new System.Drawing.Size(194, 62);
             this.btn_Voltar.TabIndex = 10;
             this.btn_Voltar.Text = "VOLTAR";
             this.btn_Voltar.UseVisualStyleBackColor = true;
@@ -162,9 +173,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(330, 68);
+            this.pictureBox1.Location = new System.Drawing.Point(454, 102);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(157, 145);
+            this.pictureBox1.Size = new System.Drawing.Size(216, 218);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
@@ -173,9 +185,10 @@
             // 
             this.button1.ImageIndex = 7;
             this.button1.ImageList = this.imageList1;
-            this.button1.Location = new System.Drawing.Point(435, 442);
+            this.button1.Location = new System.Drawing.Point(598, 663);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(52, 31);
+            this.button1.Size = new System.Drawing.Size(72, 46);
             this.button1.TabIndex = 14;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -198,9 +211,10 @@
             // 
             this.button2.ImageIndex = 7;
             this.button2.ImageList = this.imageList1;
-            this.button2.Location = new System.Drawing.Point(435, 520);
+            this.button2.Location = new System.Drawing.Point(598, 780);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(52, 35);
+            this.button2.Size = new System.Drawing.Size(72, 52);
             this.button2.TabIndex = 15;
             this.button2.Text = ";";
             this.button2.UseVisualStyleBackColor = true;
@@ -208,9 +222,9 @@
             // 
             // Frm_CadastroLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(552, 672);
+            this.ClientSize = new System.Drawing.Size(776, 985);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
@@ -227,6 +241,7 @@
             this.Controls.Add(this.lbl_MensagemCadastro);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Frm_CadastroLogin";
